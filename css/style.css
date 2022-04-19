@@ -3,3 +3,50 @@
 * This CSS file defines the style for index.html
 * ICS2O-Unit3-04-HTML-FahrenheitCelsius
 */
+
+body {
+  width: 80%;
+  margin: 5% 10%;
+  font-family: Arial, "Arial Narrow", sans-serif;
+}
+
+h1 {
+  padding: 20px;
+  background-color: #efe0fa;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: #172373;
+}
+
+#green {
+  padding: 20px;
+  background-color: #d5f3d2;
+}
+
+p {
+  width: 80%;
+  margin-left: 10%;
+}
+
+form {
+  width: 80%;
+  margin-left: 10%;
+}
+
+h3 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#results {
+  margin-left: 10%;
+  width: 80%;
+}
+
+#yellow {
+  background-color: #fcfda2;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 30px;
+  color: #3d5281;
+}
