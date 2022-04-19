@@ -7,5 +7,5 @@
 function temperatureEntered() {
   let fahrenheit = parseFloat(document.getElementById("temp").value);
   let celsius = 5 / 9 * (fahrenheit - 32);
-  document.getElementById("results").innerHTML = "The temperature in Celsius is " + celsius.toFixed(2) + " degrees Celsius."
+  document.getElementById("results").innerHTML = "The temperature in Celsius is " + parseInt(celsius) + " degrees Celsius."
 }
